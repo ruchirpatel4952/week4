@@ -9,3 +9,12 @@ int *reverseArray(int *numbers1, int length) {
     
     return reversedArray;
 }
+int *readNumbers() {
+    int *numbers = new int[10]; // Dynamically allocate an array of 10 integers
+    
+    for (int i = 0; i < 10; ++i) {
+        std::cin >> numbers[i]; // Read input numbers
+    }
+    
+    return numbers;
+}

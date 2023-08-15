@@ -14,3 +14,13 @@ bool equalsArray(int *numbers1, int *numbers2, int length) {
     
     return true; // All numbers are equal
 }
+
+int *readNumbers() {
+    int *numbers = new int[10]; // Dynamically allocate an array of 10 integers
+    
+    for (int i = 0; i < 10; ++i) {
+        std::cin >> numbers[i]; // Read input numbers
+    }
+    
+    return numbers;
+}

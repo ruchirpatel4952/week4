@@ -1,4 +1,5 @@
 #include <iostream>
+#include "function-3-2.h"
 
 int *reverseArray(int *numbers1, int length) {
     int *reversedArray = new int[length]; // Dynamically allocate a new array

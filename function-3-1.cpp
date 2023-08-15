@@ -1,4 +1,5 @@
 #include <iostream>
+#include "function-3-1.h"
 
 bool equalsArray(int *numbers1, int *numbers2, int length) {
     if (length < 1) {

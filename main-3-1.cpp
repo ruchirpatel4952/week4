@@ -1,7 +1,5 @@
 #include <iostream>
-#include "function-3-1.cpp" // Include the implementation of equalsArray
-#include "function-1-1.h"
-#include "function-1-1.cpp"
+#include "function-3-1.h" // Include the implementation of equalsArray
 
 int main() {
     int *numbers1 = readNumbers(); // Read the first array

@@ -1,8 +1,6 @@
 #include <iostream>
 #include "function-3-2.cpp" // Include the implementation of reverseArray
 #include "function-3-1.cpp"
-#include "function-1-1.h"
-#include "function-1-1.cpp"
 
 int main() {
     int *numbers1 = readNumbers(); // Read the array
